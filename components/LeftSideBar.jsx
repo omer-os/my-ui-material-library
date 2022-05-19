@@ -65,15 +65,8 @@ export default function LeftSideBar() {
       <div className="flex flex-col gap-2 pt-2 px-4 text-white overflow-y-scroll">
         <div className="text-sm text-gray-400 capitalize">inputs</div>
         <ListItem link="/components/buttons">buttons</ListItem>
-        <ListItem link="/components/inputs">inputs</ListItem>
-        <ListItem link="/components/textarea">textarea</ListItem>
-        <ListItem link="/components/select">select</ListItem>
-        <ListItem link="/components/checkbox">checkbox</ListItem>
-        <ListItem link="/components/radio">radio</ListItem>
-        <ListItem link="/components/switch">switch</ListItem>
-        <ListItem link="/components/slider">slider</ListItem>
-        <ListItem link="/components/datepicker">datepicker</ListItem>
-        <ListItem link="/components/timepicker">timepicker</ListItem>
+        <div className="text-sm text-gray-400 capitalize">components</div>
+        <ListItem link="/components/navbars">navbars</ListItem>
       </div>
     </div>
   );
