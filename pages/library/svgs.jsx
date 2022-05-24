@@ -489,9 +489,8 @@ export const icons = [
 
 
 
-export default function svgs() {
+export default function Svgs() {
   const [SearchText, setSearchText] = useState("");
-  const [ListOfIds, setListOfIds] = useState([]);
 
   return (
     <div className="sm:py-[2em] py-[.5em] px-5">
