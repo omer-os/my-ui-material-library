@@ -161,10 +161,13 @@ const ComponentFrame = ({ children, css, js }) => {
 
 export default function buttons() {
   return (
-    <div className="text-white">
-      <div className="text-3xl px-4 font-bold">Buttons</div>
+    <div className="text-white px-[1.5em] py-[2em]">
+      <div className="text-3xl font-bold">Buttons</div>
       <ComponentFrame css={Library.RippleButton.css} js={Library.RippleButton.js}>
         <RippleButton>Ripple Button</RippleButton>
+
+
+        
       </ComponentFrame>
     </div>
   );

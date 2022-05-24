@@ -2,18 +2,28 @@
 @tailwind components;
 @tailwind utilities;
 
+
 ::-webkit-scrollbar {
-  width: 10px;
+  width: 0px;
+  transition: all 0.2s ease-in-out;
 }
 
-::-webkit-scrollbar-track {
-  background: #3d3d5f;
+@media (min-width: 640px) {
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #3d3d5f;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
 }
 
-::-webkit-scrollbar-thumb {
-  background: #888;
-}
 
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}

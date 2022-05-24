@@ -56,17 +56,21 @@ export default function LeftSideBar() {
   }, [router.pathname]);
 
   return (
-    <div className="grid grid-cols-1 text-white  grid-rows-[auto_auto_1fr] left-side row-span-2">
-      <div className="logo text-xl py-2 px-4 font-bold">OmarChatin</div>
+    <div className="grid grid-cols-1 text-white grid-rows-[auto_auto_1fr] left-side row-span-2
+
+    ">
+      <div className="logo sm:block hidden text-xl py-2 px-4 font-bold">OmarChatin</div>
       <div className="search-bar py-3 px-4">
         <SearchBtn />
       </div>
 
       <div className="flex flex-col gap-2 pt-2 px-4 text-white overflow-y-scroll">
         <div className="text-sm text-gray-400 capitalize">inputs</div>
-        <ListItem link="/components/buttons">buttons</ListItem>
+        <ListItem link="/library/buttons">buttons</ListItem>
         <div className="text-sm text-gray-400 capitalize">components</div>
-        <ListItem link="/components/navbars">navbars</ListItem>
+        <ListItem link="/library/navbars">navbars</ListItem>
+        <div className="text-sm text-gray-400 capitalize">svgs</div>
+        <ListItem link="/library/svgs">svgs</ListItem>
       </div>
     </div>
   );
