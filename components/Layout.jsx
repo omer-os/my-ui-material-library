@@ -8,7 +8,7 @@ export default function Layout({ children }) {
   return (
     <>
       <div
-        className="h-full text-white bg-slate-900 grid 
+        className="h-full overflow-hidden text-white bg-slate-900 grid 
         grid-rows-[1fr] 
         md:grid-cols-[minmax(220px,230px)_1fr]
         grid-cols-[1fr]
@@ -18,7 +18,7 @@ export default function Layout({ children }) {
           OpenLeftSide={OpenLeftSide}
           setOpenLeftSide={setOpenLeftSide}
         />
-        <div className="flex h-full flex-col">
+        <div className="flex overflow-hidden h-full flex-col">
           <NavBar
             OpenLeftSide={OpenLeftSide}
             setOpenLeftSide={setOpenLeftSide}

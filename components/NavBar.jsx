@@ -3,7 +3,7 @@ import { SearchBtn } from "./LeftSideBar";
 
 export default function NavBar({ OpenLeftSide, setOpenLeftSide }) {
   return (
-    <div className="flex items-center md:col-start-2 gap-4 sm:px-5 px-2  sm:py-3 py-2 bg-slate-900 backdrop-blur-xl border border-slate-800 md:justify-end justify-between overflow-x-hidden ">
+    <div className="flex items-center md:col-start-2 gap-4 sm:px-5 px-2  sm:py-3 py-2 bg-slate-900 backdrop-blur-xl border border-slate-800 md:justify-end justify-between overflow-hidden ">
       <div className="right-side relative md:-right-full md:opacity-0 right-0 opacity-1 transition-all duratin-400 flex gap-2">
         <button
           className="border active:scale-95 transition-all duration-300 border-slate-800 p-1 flex justify-center items-cenetr rounded cursor-ointer hover:bg-slate-700

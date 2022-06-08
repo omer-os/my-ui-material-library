@@ -35,12 +35,11 @@ export const ComponentList = ({ name, children, items }) => {
         >
           {items.map((component) => {
             return (
-              <div
-                className="pl-4 cursor-pointer py-1 px-3 rounded"
-                key={Math.random()}
-              >
-                <div className="">{component.name}</div>
-              </div>
+              <Link href={`/${component.link}`} key={Math.random()}>
+                <div className="pl-4 cursor-pointer py-1 px-3 rounded">
+                  <a>{component.name}</a>
+                </div>
+              </Link>
             );
           })}
         </div>
