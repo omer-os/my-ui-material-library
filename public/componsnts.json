@@ -1,0 +1,10 @@
+{
+    "inputs":{
+        "buttons":[
+            {
+                "text":"RippleButton",
+                "code":""
+            }
+        ]
+    }
+}

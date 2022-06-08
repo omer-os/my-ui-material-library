@@ -5,11 +5,10 @@ export default function Layout({ children }) {
   return (
     <>
       <div
-        className="px-1 h-screen w-screen overflow-hidden grid 
-gap-2 grid-rows-[auto_1fr]
-sm:grid-cols-[230px_1fr]
-grid-cols-[110px_1fr]
-"
+        className="h-screen bg-slate-900 grid 
+      grid-cols-[minmax(220px,230px)_1fr]
+      grid-rows-[auto_1fr] text-white
+      "
       >
         <LeftSideBar />
         <NavBar />
