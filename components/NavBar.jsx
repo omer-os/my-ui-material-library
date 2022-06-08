@@ -23,7 +23,7 @@ export default function NavBar({ OpenLeftSide, setOpenLeftSide }) {
             height="20"
             viewBox="0 0 16 16"
             fill="none"
-            class="css-1170n61"
+            className="css-1170n61"
           >
             <rect
               x="1"
