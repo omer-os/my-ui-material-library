@@ -1,0 +1,120 @@
+[
+  {
+    "category": "inputs",
+    "link": "components/inputs",
+    "items": [
+      {
+        "name": "buttons",
+        "link": "components/inputs/buttons"
+      },
+      {
+        "name": "checkboxes",
+        "link": "components/inputs/checkboxes"
+      },
+      {
+        "name": "datepicker",
+        "link": "components/inputs/datepicker"
+      },
+      {
+        "name": "dropdown",
+        "link": "components/inputs/dropdown"
+      },
+      {
+        "name": "input",
+        "link": "components/inputs/input"
+      },
+      {
+        "name": "radios",
+        "link": "components/inputs/radios"
+      },
+      {
+        "name": "range",
+        "link": "components/inputs/range"
+      },
+      {
+        "name": "select",
+        "link": "components/inputs/select"
+      },
+      {
+        "name": "textarea",
+        "link": "components/inputs/textarea"
+      }
+    ]
+  },
+  {
+    "category": "data display",
+    "link": "components/data-display",
+    "items": [
+      {
+        "name": "badge",
+        "link": "components/data-display/badge"
+      },
+      {
+        "name": "breadcrumb",
+        "link": "components/data-display/breadcrumb"
+      },
+      {
+        "name": "jumbotron",
+        "link": "components/data-display/jumbotron"
+      },
+      {
+        "name": "media",
+        "link": "components/data-display/media"
+      },
+      {
+        "name": "pagination",
+        "link": "components/data-display/pagination"
+      },
+      {
+        "name": "progress",
+        "link": "components/data-display/progress"
+      },
+      {
+        "name": "spinner",
+        "link": "components/data-display/spinner"
+      },
+      {
+        "name": "table",
+        "link": "components/data-display/table"
+      },
+      {
+        "name": "tabs",
+        "link": "components/data-display/tabs"
+      },
+      {
+        "name": "tooltip",
+        "link": "components/data-display/tooltip"
+      }
+    ]
+  },
+  {
+    "category": "navigation",
+    "link": "components/navigation",
+    "items": [
+      {
+        "name": "bottom navigation",
+        "link": "components/navigation/bottom-navigation"
+      },
+      {
+        "name": "breadcrumbs",
+        "link": "components/navigation/breadcrumbs"
+      },
+      {
+        "name": "pagination",
+        "link": "components/navigation/pagination"
+      },
+      {
+        "name": "pills",
+        "link": "components/navigation/pills"
+      },
+      {
+        "name": "steps",
+        "link": "components/navigation/steps"
+      },
+      {
+        "name": "tabs",
+        "link": "components/navigation/tabs"
+      }
+    ]
+  }
+]

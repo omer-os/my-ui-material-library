@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+#__next,body,html{
+  height: 100%;
+}
 
 ::-webkit-scrollbar {
   width: 0px;
@@ -26,4 +29,20 @@
   }
 }
 
+
+.list-colapse-animation{
+  animation: list-colapse-animation 0.5s ease-in-out;
+}
+@keyframes list-colapse-animation {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+    height: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+    height: 100%;
+  }
+}
 
