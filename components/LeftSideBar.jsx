@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/router";
-export const ListItem = ({ children, link }) => {
+export const ListItem = ({ children, link, OpenLeftSide, setOpenLeftSide }) => {
   return (
     <Link href={link}>
       <a
@@ -13,7 +13,7 @@ export const ListItem = ({ children, link }) => {
   );
 };
 
-export default function LeftSideBar() {
+export default function LeftSideBar({ OpenLeftSide, setOpenLeftSide }) {
   const router = useRouter();
   const [SelectedItem, setSelectedItem] = useState("");
   useEffect(() => {
@@ -21,7 +21,14 @@ export default function LeftSideBar() {
   }, [router.pathname]);
 
   return (
-    <div className="grid grid-cols-1 text-white grid-rows-[auto_auto_1fr] overflow-y-scroll left-side row-span-2">
+    <div
+      className={`
+      transition-all duration-300
+        grid grid-cols-1 text-white grid-rows-[auto_auto_1fr] overflow-y-scroll left-side row-span-2
+    md:w-auto
+    w-[0em]
+    ${OpenLeftSide ? "w-full" : "w-0"}`}
+    >
       <div className="Top flex items-center p-2 border-b border-slate-800">
         <div className="logo border-slate-800 pr-2 mr-2 border-r ">
           <svg
