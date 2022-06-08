@@ -43,7 +43,7 @@ const buttons = [
             box-shadow: rgba(131, 192, 253, 0.5) 0 0 0 3px;
             outline: none;
           }`,
-    html: `<button class="button-15">ShadowButton</button>`,
+    html: `<button className="button-15">ShadowButton</button>`,
   },
   {
     name: "GlowOnHoverButton",
@@ -108,7 +108,7 @@ const buttons = [
       100% { background-position: 0 0; }
   }
   `,
-    html: `<button class="glow-on-hover" type="button">Button</button>`,
+    html: `<button className="glow-on-hover" type="button">Button</button>`,
   },
   {
     name: "HoverBorderAnimation",
@@ -152,12 +152,12 @@ const buttons = [
       font-size: 18px;
       font-weight: 100;
     }`,
-    html: `  <div class="container">
-    <div class="center">
-      <button class="btn">
-        <svg style="width:180px" height="60px" viewBox="0 0 180 60" class="border">
-          <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
-          <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+    html: `  <div className="container">
+    <div className="center">
+      <button className="btn">
+        <svg style="width:180px" height="60px" viewBox="0 0 180 60" className="border">
+          <polyline points="179,1 179,59 1,59 1,1 179,1" className="bg-line" />
+          <polyline points="179,1 179,59 1,59 1,1 179,1" className="hl-line" />
         </svg>
         <span>HOVER ME</span>
       </button>
