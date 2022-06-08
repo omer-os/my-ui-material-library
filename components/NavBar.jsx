@@ -75,7 +75,7 @@ export default function NavBar({ OpenLeftSide, setOpenLeftSide }) {
             width="24"
             height="24"
             fill="none"
-            aria-hidden="true"
+            ariaHidden="true"
             className="mr-3 scale-95 flex-none"
           >
             <path
@@ -106,7 +106,6 @@ export default function NavBar({ OpenLeftSide, setOpenLeftSide }) {
             focusable="false"
             aria-hidden="true"
             viewBox="0 0 24 24"
-            data-testid="GitHubIcon"
             width={20}
             height={20}
           >
@@ -115,7 +114,7 @@ export default function NavBar({ OpenLeftSide, setOpenLeftSide }) {
         </div>
         <div className="cursor-pointer p-2 rounded-xl hover:text-slate-600 transiton-all border border-slate-700 hover:bg-blue-600/10 active:scale-95 fill-blue-500">
           <svg
-            class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-1k33q06"
+            className="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-1k33q06"
             focusable="false"
             aria-hidden="true"
             viewBox="0 0 24 24"
